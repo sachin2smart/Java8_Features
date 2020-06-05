@@ -1,0 +1,146 @@
+dispci.dll:  ============BEGIN DisplayClassInstaller============
+dispci.dll:  DisplayClassInstaller: Unrecognized DIF request 0xd
+dispci.dll:  ============END DisplayClassInstaller==============
+dispci.dll:  ============BEGIN DisplayClassInstaller============
+dispci.dll:  ============BEGIN OnDestroyPrivateData============
+dispci.dll:  ============END OnDestroyPrivateData==============
+dispci.dll:  DisplayClassInstaller: Returning 0xe000020e for DIF 0xc and device VMBUS\{DA0A7802-E377-4AAC-8E77-0558EB1073F8}\{5620E0C7-8062-4DCE-AEB7-520C7EF76171}
+dispci.dll:  ============END DisplayClassInstaller==============
+dispci.dll:  ============BEGIN DisplayClassInstaller============
+dispci.dll:  ============BEGIN OnAllowInstall============
+dispci.dll:  DispCIIsDriverInstallAllowed: Driver package contains a feature score 0xdd
+dispci.dll:  ============END OnAllowInstall==============
+dispci.dll:  DisplayClassInstaller: Returning 0xe000020e for DIF 0x18 and device VMBUS\{DA0A7802-E377-4AAC-8E77-0558EB1073F8}\{5620E0C7-8062-4DCE-AEB7-520C7EF76171}
+dispci.dll:  ============END DisplayClassInstaller==============
+dispci.dll:  ============BEGIN DisplayClassInstaller============
+dispci.dll:  ============BEGIN OnInstallDeviceFiles============
+dispci.dll:  ============END OnInstallDeviceFiles==============
+dispci.dll:  DisplayClassInstaller: Returning 0xe000020e for DIF 0x15 and device VMBUS\{DA0A7802-E377-4AAC-8E77-0558EB1073F8}\{5620E0C7-8062-4DCE-AEB7-520C7EF76171}
+dispci.dll:  ============END DisplayClassInstaller==============
+dispci.dll:  ============BEGIN DisplayClassInstaller============
+dispci.dll:  DisplayClassInstaller: Unrecognized DIF request 0xdf3d13e0
+dispci.dll:  ============END DisplayClassInstaller==============
+dispci.dll:  ============BEGIN DisplayClassInstaller============
+dispci.dll:  DisplayClassInstaller: Unrecognized DIF request 0xdf3d13e0
+dispci.dll:  ============END DisplayClassInstaller==============
+dispci.dll:  ============BEGIN DisplayClassInstaller============
+dispci.dll:  DispCIIsDriverInstallAllowed: Driver package contains a feature score 0xdd
+dispci.dll:  ============BEGIN OnInstallDevice============
+dispci.dll:  ============END OnInstallDevice==============
+dispci.dll:  DisplayClassInstaller: Returning 0x00000000 for DIF 0x2 and device VMBUS\{DA0A7802-E377-4AAC-8E77-0558EB1073F8}\{5620E0C7-8062-4DCE-AEB7-520C7EF76171}
+dispci.dll:  ============END DisplayClassInstaller==============
+dispci.dll:  ============BEGIN DisplayClassInstaller============
+dispci.dll:  DisplayClassInstaller: Unrecognized DIF request 0xdf3d13e0
+dispci.dll:  ============END DisplayClassInstaller==============
+dispci.dll:  ============BEGIN DisplayClassInstaller============
+dispci.dll:  ============BEGIN OnDestroyPrivateData============
+dispci.dll:  ============END OnDestroyPrivateData==============
+dispci.dll:  DisplayClassInstaller: Returning 0xe000020e for DIF 0xc and device VMBUS\{DA0A7802-E377-4AAC-8E77-0558EB1073F8}\{5620E0C7-8062-4DCE-AEB7-520C7EF76171}
+dispci.dll:  ============END DisplayClassInstaller==============
+dispci.dll:  ============BEGIN DisplayClassInstaller============
+dispci.dll:  DisplayClassInstaller: Unrecognized DIF request 0x1b
+dispci.dll:  ============END DisplayClassInstaller==============
+dispci.dll:  ============BEGIN DisplayClassInstaller============
+dispci.dll:  ============BEGIN OnDestroyPrivateData============
+dispci.dll:  ============END OnDestroyPrivateData==============
+dispci.dll:  DisplayClassInstaller: Returning 0xe000020e for DIF 0xc and device PCI\VEN_8086&DEV_0A16&SUBSYS_06081028&REV_0B\3&11583659&0&10
+dispci.dll:  ============END DisplayClassInstaller==============
+AudMig: Applying saved Audio settings
+AudMig: No migration information found, skipping migration 0x2
+dispci.dll:  ============BEGIN DisplayClassInstaller============
+dispci.dll:  ============BEGIN OnAllowInstall============
+dispci.dll:  DispCIIsDriverInstallAllowed: Driver package contains a feature score 0xfb
+dispci.dll:  ============END OnAllowInstall==============
+dispci.dll:  DisplayClassInstaller: Returning 0xe000020e for DIF 0x18 and device PCI\VEN_8086&DEV_0A16&SUBSYS_06081028&REV_0B\3&11583659&0&10
+dispci.dll:  ============END DisplayClassInstaller==============
+dispci.dll:  ============BEGIN DisplayClassInstaller============
+dispci.dll:  ============BEGIN OnInstallDeviceFiles============
+dispci.dll:  ============END OnInstallDeviceFiles==============
+dispci.dll:  DisplayClassInstaller: Returning 0xe000020e for DIF 0x15 and device PCI\VEN_8086&DEV_0A16&SUBSYS_06081028&REV_0B\3&11583659&0&10
+dispci.dll:  ============END DisplayClassInstaller==============
+dispci.dll:  ============BEGIN DisplayClassInstaller============
+dispci.dll:  DisplayClassInstaller: Unrecognized DIF request 0xb
+dispci.dll:  ============END DisplayClassInstaller==============
+dispci.dll:  ============BEGIN DisplayClassInstaller============
+dispci.dll:  DisplayClassInstaller: Unrecognized DIF request 0xb
+dispci.dll:  ============END DisplayClassInstaller==============
+dispci.dll:  ============BEGIN DisplayClassInstaller============
+dispci.dll:  DispCIIsDriverInstallAllowed: Driver package contains a feature score 0xfb
+dispci.dll:  ============BEGIN OnInstallDevice============
+dispci.dll:  ============END OnInstallDevice==============
+dispci.dll:  DisplayClassInstaller: Returning 0x00000000 for DIF 0x2 and device PCI\VEN_8086&DEV_0A16&SUBSYS_06081028&REV_0B\3&11583659&0&10
+dispci.dll:  ============END DisplayClassInstaller==============
+dispci.dll:  ============BEGIN DisplayClassInstaller============
+dispci.dll:  DisplayClassInstaller: Unrecognized DIF request 0x1f9c1500
+dispci.dll:  ============END DisplayClassInstaller==============
+dispci.dll:  ============BEGIN DisplayClassInstaller============
+dispci.dll:  ============BEGIN OnDestroyPrivateData============
+dispci.dll:  ============END OnDestroyPrivateData==============
+dispci.dll:  DisplayClassInstaller: Returning 0xe000020e for DIF 0xc and device PCI\VEN_8086&DEV_0A16&SUBSYS_06081028&REV_0B\3&11583659&0&10
+dispci.dll:  ============END DisplayClassInstaller==============
+[05/23/2020 09:45.52.569] WudfCoInstaller: ReadWdfSection: Checking WdfSection [Basic_Install.Wdf]
+
+[05/23/2020 09:45.52.897] WudfCoInstaller: Configuring UMDF Service WpdFs.
+
+[05/23/2020 09:45.53.007] WudfCoInstaller: ImpersonationLevel set to 2
+
+[05/23/2020 09:45.53.085] WudfCoInstaller: Using "Win7" service configuration
+
+[05/23/2020 09:45.53.397] WudfCoInstaller: Service WudfSvc started successfully.
+
+[05/23/2020 09:45.53.429] WudfCoInstaller: Final status: error(0) The operation completed successfully.
+
+
+[05/23/2020 09:45.54.601] WudfCoInstaller: Created marker file C:\Windows\system32\drivers\Msft_User_WpdFs_01_11_00.Wdf.
+
+AudMig: Applying saved Audio settings
+AudMig: No migration information found, skipping migration 0x2
+AudMig: Applying saved Audio settings
+AudMig: No migration information found, skipping migration 0x2
+AudMig: Applying saved Audio settings
+AudMig: No migration information found, skipping migration 0x2
+AudMig: Applying saved Audio settings
+AudMig: No migration information found, skipping migration 0x2
+AudMig: Applying saved Audio settings
+AudMig: No migration information found, skipping migration 0x2
+AudMig: Applying saved Audio settings
+AudMig: No migration information found, skipping migration 0x2
+[05/23/2020 14:20.43.559] WudfCoInstaller: ReadWdfSection: Checking WdfSection [Basic_Install.Wdf]
+
+[05/23/2020 14:20.43.622] WudfCoInstaller: UMDF Service WpdFs is already installed - removing existing settings in preparation for setting new ones.
+
+[05/23/2020 14:20.43.666] WudfCoInstaller: Configuring UMDF Service WpdFs.
+
+[05/23/2020 14:20.43.686] WudfCoInstaller: ImpersonationLevel set to 2
+
+[05/23/2020 14:20.43.710] WudfCoInstaller: Using "Win7" service configuration
+
+[05/23/2020 14:20.43.730] WudfCoInstaller: Service WudfSvc is already running.
+
+[05/23/2020 14:20.43.790] WudfCoInstaller: Final status: error(0) The operation completed successfully.
+
+
+[05/23/2020 14:20.44.856] WudfCoInstaller: Created marker file C:\Windows\system32\drivers\Msft_User_WpdFs_01_11_00.Wdf.
+
+WdfCoInstaller: [05/23/2020 14:43.36.410] ReadComponents:  WdfSection for Driver Service windivert using KMDF lib version Major 0x1, minor 0x9 
+
+WdfCoInstaller: [05/23/2020 14:43.36.696] BootApplication: could not open service windivert, error error(1060) The specified service does not exist as an installed service.
+
+
+WdfCoInstaller: [05/23/2020 14:43.36.726] BootApplication: GetStartType error error(87) The parameter is incorrect.
+ Driver Service name windivert
+
+WdfCoInstaller: [05/23/2020 16:32.07.470] ReadComponents:  WdfSection for Driver Service windivert using KMDF lib version Major 0x1, minor 0x9 
+
+WdfCoInstaller: [05/23/2020 16:32.07.595] BootApplication: could not open service windivert, error error(1060) The specified service does not exist as an installed service.
+
+
+WdfCoInstaller: [05/23/2020 16:32.07.642] BootApplication: GetStartType error error(87) The parameter is incorrect.
+ Driver Service name windivert
+
+AudMig: Applying saved Audio settings
+AudMig: No migration information found, skipping migration 0x2
+BthMig: Applying saved Bluetooth settingsBthMig: System in setup 0BthMig: No migration information found, skipping migrationAudMig: Applying saved Audio settings
+AudMig: No migration information found, skipping migration 0x2
+AudMig: Applying saved Audio settings
+AudMig: No migration information found, skipping migration 0x2
