@@ -149,10 +149,10 @@ public class CollectionAPIoperations {
 		Person p4 = new Person("Amit", "Lohade", 35);
 		Person p5 = new Person("Rahul", "Shinde", 30);
 		
-		Person p11 = new Person("Pratiksha", "Shinde", 30);
-		Person p22 = new Person("Anamika", "Jha", 31);
-		Person p33 = new Person("Chimbu", "Kelkar", 45);
-		Person p44 = new Person("Shraddha", "Lohade", 35);
+		Person p11 = new Person("Pratiksha", "Shinde", 35);
+		Person p22 = new Person("Anamika", "Jha", 45);
+		Person p33 = new Person("Chimbu", "Kelkar", 31);
+		Person p44 = new Person("Shraddha", "Lohade", 30);
 		Person p55 = new Person("Prerana", "Shinde", 30);
 		
 		List<Person> persons1 = new LinkedList<Person>();
@@ -249,10 +249,10 @@ public class CollectionAPIoperations {
 		);
 		
 		/* RESULT:
-				35 --> {Lohade=[Person [Shraddha, Lohade, 35], Person [Amit, Lohade, 35]]}
-				45 --> {Kelkar=[Person [Chimbu, Kelkar, 45], Person [Pravin, Kelkar, 45]]}
-				30 --> {Shinde=[Person [Pratiksha, Shinde, 30], Person [Prerana, Shinde, 30], Person [Sachin, Shinde, 30], Person [Rahul, Shinde, 30]]}
-				31 --> {Jha=[Person [Anamika, Jha, 31], Person [Saurabh, Jha, 31]]}
+					35 --> {Shinde=[Person [Pratiksha, Shinde, 35]], Lohade=[Person [Amit, Lohade, 35]]}
+					45 --> {Jha=[Person [Anamika, Jha, 45]], Kelkar=[Person [Pravin, Kelkar, 45]]}
+					30 --> {Lohade=[Person [Shraddha, Lohade, 30]], Shinde=[Person [Prerana, Shinde, 30], Person [Sachin, Shinde, 30], Person [Rahul, Shinde, 30]]}
+					31 --> {Jha=[Person [Saurabh, Jha, 31]], Kelkar=[Person [Chimbu, Kelkar, 31]]}
 		 */
 		
 	}
