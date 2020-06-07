@@ -3,6 +3,7 @@ package in.sachinshinde;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
+import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
@@ -210,6 +211,49 @@ public class CollectionAPIoperations {
 		System.out.println("-------After merging two maps---------");
 		map1.forEach((age,list)-> System.out.println(age +"-->"+ list));
 		
+		/* RESULT:
+			 	35-->[Person [Amit, Lohade, 35], Person [Shraddha, Lohade, 35]]
+				45-->[Person [Pravin, Kelkar, 45], Person [Chimbu, Kelkar, 45]]
+				30-->[Person [Sachin, Shinde, 30], Person [Rahul, Shinde, 30], Person [Pratiksha, Shinde, 30], Person [Prerana, Shinde, 30]]
+				31-->[Person [Saurabh, Jha, 31], Person [Anamika, Jha, 31]]
+		 */
+		
+		
+		
+		
+		// ---------- biMap operations -------------------------------//
+		
+		persons11.addAll(persons1);
+		Map<Integer, Map<String, List<Person>>> biMap = new HashMap<>();
+		
+		persons11.forEach(
+				person ->
+					biMap.computeIfAbsent(
+							person.getAge(), 
+							HashMap::new
+							
+					).merge(
+							person.getLastName(),
+							new ArrayList<>(Arrays.asList(person)),
+							(l1,l2) -> {
+								l1.addAll(l2);
+								return l1;
+							}
+					)
+		);
+		
+		System.out.println();
+		System.out.println("-------After biMap operation---------");
+		biMap.forEach(
+				(lName, m) -> System.out.println(lName + " --> " + m)
+		);
+		
+		/* RESULT:
+				35 --> {Lohade=[Person [Shraddha, Lohade, 35], Person [Amit, Lohade, 35]]}
+				45 --> {Kelkar=[Person [Chimbu, Kelkar, 45], Person [Pravin, Kelkar, 45]]}
+				30 --> {Shinde=[Person [Pratiksha, Shinde, 30], Person [Prerana, Shinde, 30], Person [Sachin, Shinde, 30], Person [Rahul, Shinde, 30]]}
+				31 --> {Jha=[Person [Anamika, Jha, 31], Person [Saurabh, Jha, 31]]}
+		 */
 		
 	}
 
