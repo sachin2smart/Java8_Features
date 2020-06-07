@@ -5,6 +5,8 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
 
 import in.sachinshinde.model.Person;
 
@@ -15,7 +17,9 @@ public class CollectionAPIoperations {
 		
 		comparatorMethods();
 		
-		//intStreamOperations();
+		// intStreamOperations();
+		
+		mapOperations();
 		
 	}
 
@@ -122,6 +126,90 @@ public class CollectionAPIoperations {
 			.forEach(System.out::println);
 		
 		System.out.println("---------------------------------------------------");
+		
+	}
+
+
+	/*   
+	 * 		## SCENARIO: 
+	 * 		
+	 * 		Given two lists with persons details in the form of firstName, lastName, age.
+	 * 		Add those list into the map group by the age.
+	 * 		Now, you have 2 maps.
+	 * 		Merge those maps into a single map.
+	 * 		Display the content of merged map.
+	 * 
+	 */
+	private static void mapOperations() {
+		
+		Person p1 = new Person("Sachin", "Shinde", 30);
+		Person p2 = new Person("Saurabh", "Jha", 31);
+		Person p3 = new Person("Pravin", "Kelkar", 45);
+		Person p4 = new Person("Amit", "Lohade", 35);
+		Person p5 = new Person("Rahul", "Shinde", 30);
+		
+		Person p11 = new Person("Pratiksha", "Shinde", 30);
+		Person p22 = new Person("Anamika", "Jha", 31);
+		Person p33 = new Person("Chimbu", "Kelkar", 45);
+		Person p44 = new Person("Shraddha", "Lohade", 35);
+		Person p55 = new Person("Prerana", "Shinde", 30);
+		
+		List<Person> persons1 = new LinkedList<Person>();
+		persons1.add(p1);
+		persons1.add(p2);
+		persons1.add(p3);
+		persons1.add(p4);
+		persons1.add(p5);
+		
+		List<Person> persons11 = new LinkedList<Person>();
+		persons11.add(p11);
+		persons11.add(p22);
+		persons11.add(p33);
+		persons11.add(p44);
+		persons11.add(p55);
+		
+		Map<Integer, List<Person>> map1 = persons1.stream()
+													.collect(
+																Collectors.groupingBy(Person::getAge)
+															);
+		
+		Map<Integer, List<Person>> map2 = persons11.stream()
+													.collect(
+																Collectors.groupingBy(Person::getAge)
+															);
+											
+		map1.forEach(
+						(age,list)
+									-> 
+										System.out.println(age +"-->"+ list));
+		
+		
+		System.out.println();
+
+		map2.forEach(
+				(age,list)
+							-> 
+								System.out.println(age +"-->"+ list));
+		
+		map2.entrySet()
+			.stream()
+			.forEach(
+						entry -> 
+								map1.merge(
+											entry.getKey(), 
+											entry.getValue(), 
+											(l1, l2) -> {
+												l1.addAll(l2);
+												return l1;
+											}
+												
+										)
+			);
+		
+		System.out.println();
+		System.out.println("-------After merging two maps---------");
+		map1.forEach((age,list)-> System.out.println(age +"-->"+ list));
+		
 		
 	}
 

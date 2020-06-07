@@ -5,6 +5,11 @@ public class Person {
 	String lastName;
 	int age;
 
+	@Override
+	public String toString() {
+		return "Person [" + firstName + ", " + lastName + ", " + age + "]";
+	}
+
 	public Person(String firstName, String lastName, int age) {
 		super();
 		this.firstName = firstName;
